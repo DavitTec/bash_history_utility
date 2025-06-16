@@ -1,7 +1,7 @@
 #!/bin/bash
 ####### HEADER #######
 # bash_history_tool.sh
-# Version: 0.1.0
+# Version: 0.0.9
 # Description: Standalone tool to dump, clear, or archive bash history in Markdown format.
 # Created: 2025-06-16
 # Updated: 2025-06-16
@@ -52,7 +52,7 @@ dump_bash_history() {
     touch "$HISTORY_FILE"
   fi
 
-  # Create temporary file for history
+  # Create a temporary file for history
   local temp_history
   temp_history=$(mktemp)
 
@@ -73,7 +73,7 @@ dump_bash_history() {
   log "In-memory history lines: $(wc -l < "$temp_history")"
   log "Sample history: $(head -n 2 "$temp_history" | sed 's/^/  /')"
 
-  # Create Markdown file
+  # Create a Markdown file
   {
     echo "# Bash History Dump"
     echo
