@@ -15,7 +15,7 @@ The utility is designed to be reusable across projects or as a standalone tool, 
 
 - **Version**: 0.0.9  (proposed for standalone `bash_history_tool.sh`).
 
-   [scripts/bash_history_tool.sh](./scripts/bash_history_tool.sh) 
+   [scripts/bash_history_tool.sh](https://github.com/DavitTec/bash_history_utility/blob/master/scripts/bash_history_tool.sh) 
 
 ## Installation
 
@@ -23,7 +23,7 @@ The utility is designed to be reusable across projects or as a standalone tool, 
 ./INSTALL.sh install
 ```
 
-## Usage
+## Usag
 
 ```bash
 
@@ -36,12 +36,12 @@ The utility is designed to be reusable across projects or as a standalone tool, 
 
 ## VSCode Setup
 
-1. Open project in VSCode
+1. Open the project in VSCode
 2. Install recommended extensions:
    - ShellCheck
    - Bash IDE
    - Markdown All in One
-3. Configure tasks.json for running tests and main script
+3. Configure tasks.json for running tests and the main script
 
 ## Current Version
 
